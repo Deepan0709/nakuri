@@ -44,7 +44,7 @@ public class NakuriVeniallaScript {
 		driver.findElement(By.xpath("/html/body/main/div/div/div[3]/div/div[3]/div[2]/a")).click();
 		Thread.sleep(5000);
 		WebElement find = driver.findElement(By.xpath("//input[@type='file'][@id='attachCV']"));
-		find.sendKeys("C:\\Users\\Admin\\Documents\\Resume\\Resume.pdf");
+		find.sendKeys("C:\\Users\\Admin\\git\\repository\\Nakuri\\Source\\Resume.pdf");
 		Thread.sleep(2000);
 		WebElement success = driver.findElement(By.xpath("(//span[@id='attachCVMsgBox']/div/div/div/p)[2]"));
 		String text = success.getText();
