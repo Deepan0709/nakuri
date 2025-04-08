@@ -33,7 +33,7 @@ public class NakuriVeniallaScript {
 		driver.get("https://www.naukri.com/mnjuser/profile");
 		driver.manage().window().maximize();
 
-		// LOGIN
+		// /LOGIN
 
 		driver.findElement(By.id("usernameField")).sendKeys("deepanbalaji0709@gmail.com");
 		driver.findElement(By.id("passwordField")).sendKeys("Deepan@0709");
